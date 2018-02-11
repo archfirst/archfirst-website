@@ -1,0 +1,55 @@
+.banner {
+    position: relative;
+    clear: both;
+    line-height: normal;
+}
+
+.banner__home {
+    background-color: #374e80;
+    color: white;
+    height: 250px;
+    padding: 100px 30px 0 30px;
+}
+
+.banner__page {
+    height: 60px;
+}
+
+.banner-message {
+    max-width: 570px;
+    font-size: 20px;
+}
+
+.banner-hook {
+    margin-top: 20px;
+    font-size: 28px;
+}
+
+@media screen and (max-width: 600px) {
+    .banner__home {
+        height: 215px;
+        padding-top: 90px;
+    }
+
+    .banner-message {
+        font-size: 14px;
+    }
+
+    .banner-hook {
+        margin-top: 15px;
+        font-size: 22px;
+    }
+}
+
+.logo {
+    position: absolute;
+    top: 18px;
+    left: 30px;
+}
+
+.content {
+    width:90%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding-bottom: 24px;
+}
