@@ -20,6 +20,7 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.firebase
 .gatsby-context.js
 .intermediate-representation/
 Thumbs.db
