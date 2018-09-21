@@ -17,9 +17,9 @@ This article has been structured to introduce the fundamental DDD concepts upfro
 
 1. Introduction
 2. [Ubiquitous Language](../domain-driven-design-2-ubiquitous-language)
-3. [Domain Model](./domain-driven-design-3-domain-model)
-4. [Bounded Context](./domain-driven-design-4-bounded-context)
-5. [Command-Query Separation](./domain-driven-design-5-command-query-separation)
-6. [Layered Architecture](./domain-driven-design-6-layered-architecture)
-7. [Domain Layer](./domain-driven-design-7-domain-layer)
-8. [Conclusion](./domain-driven-design-8-conclusion)
+3. [Domain Model](../domain-driven-design-3-domain-model)
+4. [Bounded Context](../domain-driven-design-4-bounded-context)
+5. [Command-Query Separation](../domain-driven-design-5-command-query-separation)
+6. [Layered Architecture](../domain-driven-design-6-layered-architecture)
+7. [Domain Layer](../domain-driven-design-7-domain-layer)
+8. [Conclusion](../domain-driven-design-8-conclusion)
