@@ -4,8 +4,8 @@ Archfirst Website
 Dev Build
 ---------
 ```bash
-$ npm install
-$ gatsby develop
+$ yarn
+$ yarn develop
 ```
 
 Now point your browser to http://localhost:8000/.
@@ -13,6 +13,8 @@ Now point your browser to http://localhost:8000/.
 Production Build
 ----------------
 ```bash
-$ gatsby build
-$ gatsby serve
+$ yarn build
+$ firebase deploy
 ```
+
+This creates the build in the `public` folder and deploys it on firebase.
