@@ -1,6 +1,6 @@
 ---
 title: MyBatis vs. Other ORMs
-date: "2015-07-01T15:00:00.000Z"
+date: '2015-07-01T15:00:00.000Z'
 ---
 
 Object-Relational Mapping (ORM) frameworks allow us to access relational databases from object-oriented languages. Over the years, I have used several ORMs - [Hibernate](http://hibernate.org/orm/)/[JPA](http://www.oracle.com/technetwork/java/javaee/tech/persistence-jsp-140049.html) for Java, [Bookshelf.js](http://bookshelfjs.org/) and [Sequelize](http://docs.sequelizejs.com/en/latest/) for JavaScript, just to name a few. I was never completely satisfied with these solutions because in one way or another, they did not match my way of thinking. Recently, I tried [MyBatis](http://mybatis.github.io/mybatis-3/) and it was a breath of fresh air! Let me explain why.
@@ -25,5 +25,5 @@ I hope you can see why I like MyBatis. This will be my default ORM for Java goin
 
 Here are the two projects I used for comparing MyBatis to other ORMs:
 
-* [Manage My Money Server - MyBatis](https://github.com/archfirst/manage-my-money-mybatis)
-* [Manage My Money Server - Bookshelf](https://github.com/archfirst/manage-my-money-server)
+-   [Manage My Money Server - MyBatis](https://github.com/archfirst/manage-my-money-mybatis)
+-   [Manage My Money Server - Bookshelf](https://github.com/archfirst/manage-my-money-server)

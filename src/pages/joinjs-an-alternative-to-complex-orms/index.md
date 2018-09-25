@@ -1,6 +1,6 @@
 ---
 title: JoinJS - An Alternative to Complex ORMs
-date: "2015-08-10T15:00:00.000Z"
+date: '2015-08-10T15:00:00.000Z'
 ---
 
 [JoinJS](https://github.com/archfirst/joinjs) is a JavaScript library to map complex database joins to nested objects. It's a simpler alternative to a full-blown Object-Relation Mapper (ORM), and gives you direct control over your database interactions. In this article, we will explore the power of JoinJS using a simple hands-on example.
@@ -93,8 +93,8 @@ SELECT setval('players_id_seq', (SELECT MAX(id) FROM players));
 
 If you don't have Node.js installed on your machine, install it first.
 
-* on OSX, install [home brew](http://brew.sh/) and then type _brew install node_
-* on Windows, use the installer available at [nodejs.org](http://nodejs.org/)
+-   on OSX, install [home brew](http://brew.sh/) and then type _brew install node_
+-   on Windows, use the installer available at [nodejs.org](http://nodejs.org/)
 
 Create a folder called _joinjs-tutorial_ to store your source. In this folder, create a file called _package.json_ with the following content. This file specifies JoinJS and other required libraries as dependencies for your project.
 
@@ -242,13 +242,13 @@ So let's try to understand result maps. Remember that result maps teach JoinJS h
 }
 ```
 
-* `mapId`: Every result map has a unique id. In the example above, the result map describes the _Team_ object and hence it has been given an id of `teamMap`. You can call it anything else as long as it is distinct from other mapIds.
-* `idProperty`: Every object that needs to be mapped should have a property that identifies it. The idProperty specifies the name of this property. In the example above, idProperty specifies that the name of the identifying property is `id`. This form of idProperty also assumes that the corresponding database column has the same name. If that's not the case, then idProperty should be specified as an object literal, e.g. `{name: 'id', column: 'person_id'}`. Here _name_ is the name of the identifying property in JavaScript and _column_ is the name of the identifying column in the result set. Incidentally `id` is the default value of the _idProperty_, so you can leave it out completely in the above example. You may also be wondering why the identifying column is assumed to be _id_ instead of _team_id_ - that's how it appears in the result set. That's where the concept of _columnPrefix_ comes in. To provide maximum flexibility, we specify the column names generically in idProperty (as we have above) and then specify column prefixes for a whole set of columns.
-* `properties`: This is an array that defines mappings for the other properties of the object (besides the id property). In the example above it's again a straightforward mapping of column _name_ to object property _name_. A more interesting use case would be to convert snake_case column names to camelCase object properties, e.g. `{name: 'gamesPlayed', column: 'games_played'}` (we will use this one later).
-* `associations`: This is an array that defines one-to-one relationships (a.k.a. associations) with other objects. In the example above we are defining one association from Team to Coach. The association specification has three properties:
-    * _name_: defines the name of the object property that represents the associated object. In our example, a property called _coach_ will be injected in the Team object to represent the associated object.
-    * _mapId_: mapId of the associated object, in this case the id of the Coach map.
-    * _columnPrefix_: The prefix to apply to every column name of the associated object. The default value is an empty string. However, in our case we know that all columns of the Coach object are prefixed with `coach_`. So we specify this column prefix.
+-   `mapId`: Every result map has a unique id. In the example above, the result map describes the _Team_ object and hence it has been given an id of `teamMap`. You can call it anything else as long as it is distinct from other mapIds.
+-   `idProperty`: Every object that needs to be mapped should have a property that identifies it. The idProperty specifies the name of this property. In the example above, idProperty specifies that the name of the identifying property is `id`. This form of idProperty also assumes that the corresponding database column has the same name. If that's not the case, then idProperty should be specified as an object literal, e.g. `{name: 'id', column: 'person_id'}`. Here _name_ is the name of the identifying property in JavaScript and _column_ is the name of the identifying column in the result set. Incidentally `id` is the default value of the _idProperty_, so you can leave it out completely in the above example. You may also be wondering why the identifying column is assumed to be _id_ instead of _team_id_ - that's how it appears in the result set. That's where the concept of _columnPrefix_ comes in. To provide maximum flexibility, we specify the column names generically in idProperty (as we have above) and then specify column prefixes for a whole set of columns.
+-   `properties`: This is an array that defines mappings for the other properties of the object (besides the id property). In the example above it's again a straightforward mapping of column _name_ to object property _name_. A more interesting use case would be to convert snake_case column names to camelCase object properties, e.g. `{name: 'gamesPlayed', column: 'games_played'}` (we will use this one later).
+-   `associations`: This is an array that defines one-to-one relationships (a.k.a. associations) with other objects. In the example above we are defining one association from Team to Coach. The association specification has three properties:
+    -   _name_: defines the name of the object property that represents the associated object. In our example, a property called _coach_ will be injected in the Team object to represent the associated object.
+    -   _mapId_: mapId of the associated object, in this case the id of the Coach map.
+    -   _columnPrefix_: The prefix to apply to every column name of the associated object. The default value is an empty string. However, in our case we know that all columns of the Coach object are prefixed with `coach_`. So we specify this column prefix.
 
 Now that we understand how the result maps work, let's focus our attention to the JoinJS `map()` call.
 

@@ -1,6 +1,6 @@
 ---
 title: 7. Domain-Driven Design - Domain Layer
-date: "2015-02-28T15:00:00.000Z"
+date: '2015-02-28T15:00:00.000Z'
 ---
 
 This layer is the heart of the application. It consists of entities, value objects, domain services and domain events.

@@ -1,6 +1,6 @@
 ---
 title: 6. Domain-Driven Design - Layered Architecture
-date: "2015-02-27T15:00:00.000Z"
+date: '2015-02-27T15:00:00.000Z'
 ---
 
 Now let’s zoom into the Bullsfirst OMS and discuss DDD as it relates to a single bounded context. The first concept we’ll talk about is called _Layered Architecture_.
@@ -56,6 +56,6 @@ We will look at this layer in more detail in the next section.
 
 This layer consists of:
 
-* User and Account repositories for managing users and accounts in the database
-* Adapters for accessing reference data and market data from the exchange
-* TradingService proxy for sending trading commands to the exchange
+-   User and Account repositories for managing users and accounts in the database
+-   Adapters for accessing reference data and market data from the exchange
+-   TradingService proxy for sending trading commands to the exchange

@@ -1,6 +1,6 @@
 ---
 title: 4. Domain-Driven Design - Bounded Context
-date: "2015-02-25T15:00:00.000Z"
+date: '2015-02-25T15:00:00.000Z'
 ---
 
 The sheer volume of concepts on a large project can be daunting. For example, a typical brokerage firm will have a large number of interrelated functions such as customer acquisition, account management, order management, order execution and so on. Each of these functions will have some distinct and some overlapping concepts. One could theoretically conceive of a domain model for the entire enterprise, however such a large domain model is neither feasible nor cost effective. We must divide large domains into smaller manageable models, each of which is _bounded within a context_.

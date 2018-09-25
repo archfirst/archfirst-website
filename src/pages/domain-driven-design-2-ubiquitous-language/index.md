@@ -1,6 +1,6 @@
 ---
 title: 2. Domain-Driven Design - Ubiquitous Language
-date: "2015-02-23T15:00:00.000Z"
+date: '2015-02-23T15:00:00.000Z'
 ---
 
 Developers will be developers – given a requirement, they will immediately start to think in terms code – classes, methods, algorithms, polymorphism and so on. Domain experts usually know nothing about all of this. They only know about securities, orders and how orders are matched to execute trades.

@@ -1,6 +1,6 @@
 ---
 title: 1. Domain-Driven Design - Introduction
-date: "2015-02-22T15:00:00.000Z"
+date: '2015-02-22T15:00:00.000Z'
 ---
 
 Domain-Driven Design, or DDD, is an approach for building high-quality software that meets core business objectives. It emphasizes collaboration among domain experts, developers, UX designers and other disciplines to create a domain model that reflects the needs of the business. This involves agreeing on common terminology (a.k.a. the _Ubiquitous Language_), identifying business entities, their behavior and relationships and organizing them in a way that lends itself to a clean and modular implementation.

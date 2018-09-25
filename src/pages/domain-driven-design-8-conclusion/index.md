@@ -1,15 +1,15 @@
 ---
 title: 8. Domain-Driven Design - Conclusion
-date: "2015-03-01T15:00:00.000Z"
+date: '2015-03-01T15:00:00.000Z'
 ---
 
 ## Summary
 
-* Use _Domain-Driven Design_ to collaborate among all project disciplines and clearly understand the business requirements.
-* Establish a _Ubiquitous Language_ to discuss domain related concepts.
-* Use _Bounded Contexts_ to break down complex domains into manageable parts.
-* Use _Command-Query Separation_ to simplify your designs and improve performance.
-* Implement a _Layered Architecture_ to focus on different aspects of the application.
+-   Use _Domain-Driven Design_ to collaborate among all project disciplines and clearly understand the business requirements.
+-   Establish a _Ubiquitous Language_ to discuss domain related concepts.
+-   Use _Bounded Contexts_ to break down complex domains into manageable parts.
+-   Use _Command-Query Separation_ to simplify your designs and improve performance.
+-   Implement a _Layered Architecture_ to focus on different aspects of the application.
 
 ## Further Reading
 

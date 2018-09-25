@@ -1,6 +1,6 @@
 ---
 title: 3. Domain-Driven Design - Domain Model
-date: "2015-02-24T15:00:00.000Z"
+date: '2015-02-24T15:00:00.000Z'
 ---
 
 The domain model uses the Ubiquitous Language to provide a rich visual view of the domain. It primarily consists of entities, value objects and relationships. Let's take a closer look.
@@ -45,8 +45,8 @@ The diagram above shows a one-to-many relationship. Other common relationships a
 
 Here are some additional tips on creating good domain models:
 
-* Avoid introducing software concepts when creating a domain model. It is _not_ an exercise in software design or database design! The focus should be on understanding the business domain and the functional requirements of the system under development. As a consequence, the domain model should be created and owned _jointly_ by domain experts, software developers, UX designers and other members of the team.
-* A good domain model should translate directly into the core domain layer of the system without introducing technical concerns like persistence, input and output mechanisms. We will talk more about this in later sections.
-* The process of creating a domain model is very compatible with Agile practices. You don't have to create the entire domain model before moving into implementation. It's probably good to start with a general idea of the various subject areas in your domain and then deep dive into specific ones as needed for the feature under implementation.
-* Do not cram your entire domain into one diagram. A diagram with hundreds of objects and relationships is not understandable by normal human beings! Break it up into smaller subject areas. Remember the rule of [Seven, Plus or Minus Two](http://www.musanim.com/miller1956/) - limit the number of objects on your diagrams from 5 to 9!
-* Avoid crossing of relationships. If you can't draw your diagram without crossing relationships, it is probably too complex. Break it into smaller pieces.
+-   Avoid introducing software concepts when creating a domain model. It is _not_ an exercise in software design or database design! The focus should be on understanding the business domain and the functional requirements of the system under development. As a consequence, the domain model should be created and owned _jointly_ by domain experts, software developers, UX designers and other members of the team.
+-   A good domain model should translate directly into the core domain layer of the system without introducing technical concerns like persistence, input and output mechanisms. We will talk more about this in later sections.
+-   The process of creating a domain model is very compatible with Agile practices. You don't have to create the entire domain model before moving into implementation. It's probably good to start with a general idea of the various subject areas in your domain and then deep dive into specific ones as needed for the feature under implementation.
+-   Do not cram your entire domain into one diagram. A diagram with hundreds of objects and relationships is not understandable by normal human beings! Break it up into smaller subject areas. Remember the rule of [Seven, Plus or Minus Two](http://www.musanim.com/miller1956/) - limit the number of objects on your diagrams from 5 to 9!
+-   Avoid crossing of relationships. If you can't draw your diagram without crossing relationships, it is probably too complex. Break it into smaller pieces.
