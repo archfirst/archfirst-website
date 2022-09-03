@@ -25,7 +25,7 @@ How can you tell if a domain concept is an entity or a value object? In addition
 
 Developers may have a tendency to model value objects as entities because they may need to store value objects as distinct rows in a database table. While this approach is required to implement a collection of value objects in the relational model, don't let it influence your domain model. If you do, your domain model will not reflect true DDD thinking.
 
-For a detailed discussion of these concepts, read [Implementing Domain-Driven Design](http://amzn.com/0321834577) by Vaughn Vernon.
+For a detailed discussion of these concepts, read [Implementing Domain-Driven Design](https://amzn.com/dp/0321834577) by Vaughn Vernon.
 
 ## Relationships
 

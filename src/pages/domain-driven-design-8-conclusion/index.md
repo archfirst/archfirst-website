@@ -13,8 +13,8 @@ date: '2015-03-01T15:00:00.000Z'
 
 ## Further Reading
 
-1. Eric Evans, [Domain-Driven Design](http://amzn.com/0321125215) – The original work describing a vision and approach for dealing with highly complex domains.
-2. Vaughn Vernon, [Implementing Domain-Driven Design](http://amzn.com/0321834577) – A detailed look at implementing systems using DDD - highly recommended.
+1. Eric Evans, [Domain-Driven Design](https://amzn.com/dp/0321125215) – The original work describing a vision and approach for dealing with highly complex domains.
+2. Vaughn Vernon, [Implementing Domain-Driven Design](https://amzn.com/dp/0321834577) – A detailed look at implementing systems using DDD - highly recommended.
 3. Abel Avram & Floyd Marinescu, [Domain-Driven Design Quickly](http://www.infoq.com/minibooks/domain-driven-design-quickly) - an online book introducing the fundamentals of DDD.
 4. Bertrand Meyer, [Command-Query Separation](http://en.wikipedia.org/wiki/Command-query_separation) - an approach to simplify designs and improve performance by separating reads from writes
 5. Greg Young, [Unshackle Your Domain](http://www.infoq.com/presentations/greg-young-unshackle-qcon08) – An excellent presentation describing the benefits of separating commands from queries and event driven design
